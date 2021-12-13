@@ -10,6 +10,15 @@ import java.util.Stack;
 
 /** This class contains the contents of a stack. */
 public final class MrCoxallStack {
+
+    /**
+    * Prevent instantiation
+    * Throw an exception IllegalStateException.
+    * if this ever is called
+    *
+    * @throws IllegalStateException
+    *
+    */
     private MrCoxallStack() {
         // Prevent instantiation
         // Optional: throw an exception e.g. AssertionError
