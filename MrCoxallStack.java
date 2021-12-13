@@ -10,12 +10,12 @@ import java.util.Stack;
 
 /** This class contains the contents of a stack. */
 public final class MrCoxallStack {
-    // private MrCoxallStack() {
-    //     // Prevent instantiation
-    //     // Optional: throw an exception e.g. AssertionError
-    //     // if this ever *is* called
-    //     throw new IllegalStateException("Cannot be instantiated");
-    // }
+    private MrCoxallStack() {
+        // Prevent instantiation
+        // Optional: throw an exception e.g. AssertionError
+        // if this ever *is* called
+        throw new IllegalStateException("Cannot be instantiated");
+    }
 
     /** Create the stack as an ArrayList (array that grows as I need it!). */
     private static Stack<Integer> stack = new Stack<Integer>();
