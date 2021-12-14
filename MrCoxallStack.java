@@ -7,7 +7,6 @@
 */
 
 import java.util.ArrayList;
-import java.util.EmptyStackException;
 
 /**
 * This class contains the contents of a stack.
