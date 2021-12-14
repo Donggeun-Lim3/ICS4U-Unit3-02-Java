@@ -35,12 +35,7 @@ public class MrCoxallStack<T> {
     * @throws EmptyStackException if the stack is empty
     */
     public T pop() {
-        if (stackAsArray.size() == 0) {
-            throw new EmptyStackException();
-        }
-        else {
-            return this.stackAsArray.remove(0);
-        }
+        return this.stackAsArray.remove(0);
     }
 
     /** Prints out the stack. */
